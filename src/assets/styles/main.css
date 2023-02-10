@@ -1,0 +1,61 @@
+#app {
+  font-family: DotGothic;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: #1b1220;
+}
+
+.main {
+  height: 27.5rem;
+  width: 24em;
+
+  background: linear-gradient(
+    0deg,
+    rgba(175, 60, 235, 1),
+    rgba(168, 0, 255, 0.4)
+  );
+  border-radius: 40px;
+}
+
+.logo {
+  max-width: 8em;
+
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+.footer {
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+.circle {
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: #af3ceb;
+}
+
+.footer_icon {
+  transition: transform 0.4s;
+}
+
+.footer_icon:hover {
+  transform: rotate(0.17turn);
+}
+
+@font-face {
+  font-family: DotGothic;
+  src: url("../fonts/DotGothic16-Regular.ttf");
+}
